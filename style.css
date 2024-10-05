@@ -338,6 +338,82 @@ article{
 article .icon{
     cursor: default;
 }
+/* Skills */
+
+#skills {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+    margin: 0 10rem;
+    border-radius: 1rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.skills-subsection {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.skills-subsection h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills-subsection ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-subsection li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.skill-level {
+    background-color: #ddd;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    font-weight: bold;
+}
+
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    height: 60px;
+    width: 60px;
+}
+
+.skill p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+#skills p {
+    margin: 1rem 0; /* Spacing above and below */
+    font-size: 1.2rem; /* Font size for clarity */
+    color: rgb(84, 84, 84); /* Color to match other text */
+}
+
+#skills ul {
+    margin: 1rem auto; /* Centering the list */
+    padding-left: 0; /* Remove default left padding */
+    list-style-position: inside; /* Keeps bullet points inside the box */
+    font-size: 1.2rem; /* Font size for list items */
+    color: rgb(84, 84, 84); /* Color to match other text */
+    border-radius: 0.5rem; /* Rounded corners for the list */
+    padding: 1rem 1.5rem; /* Top/bottom padding, left/right padding for spacing */
+}
+
 
 /* Projects */
 

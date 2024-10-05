@@ -14,7 +14,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills/Technologies</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -30,7 +30,7 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills/Technologies</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -38,15 +38,15 @@
     </nav>
     <section id="profile">
         <div class="section_pic-container">
-            <img src="./assets/profile-pic.png" alt="Adam McC profile pic">
+            <img src="" alt="Adam McC profile pic">
         </div>
         <div class="section_text">
             <p class="section_text_p1">Hello, I'm</p>
             <h1 class="title">Adam McCavana</h1>
-            <p class="section_text_p2">Junior Developer</p>
+            <p class="section_text_p2">Junior Software Engineer</p>
             <div class="btn-container">
                 <button 
-                    class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                    class="btn btn-color-2" onclick="window.open('./assets/AdamCV.pdf')">
                     Download CV
                 </button>
                 <button 
@@ -56,7 +56,7 @@
             </div>
             <div id="socials-container">
                 <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/adam-mccavana-135a58256/'">
-                <img src="./assets/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://www.github.com/'">
+                <img src="./assets/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/AdamM1223'">
             </div>
         </div>
     </section>
@@ -72,22 +72,118 @@
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="Experience Icon" class="icon">
                         <h3>Experience</h3>
-                        <p>Foundation Degree Student<br></p>
+                        <p>Foundation Degree <br></p>
+                        <p>Customer Advisor at Henderson Retail, Larne <br>
+                            August 2023 — Present <br><br></p>
+                        <p>Support Analyst at Capita, Newtownabbey <br> July 2024 — September 2024 <br><br></p>
+                        <p>Support Analyst (Placement student), Henderson Technology, Templepatrick <br>February 2024 — May 2024<br></p>
+
                     </div>
                     <div class="details-container">
                         <img src="./assets/education.png" alt="Education Icon" class="icon">
                         <h3>Education</h3>
-                        <p>Current Student of BSc Degree<br>University of Ulster</p>
+                        <p>Current 2nd Year Student of BEng Software Engineering<br>University of Ulster</p><br>
+                        <p>Foundation Degree in Computing (FdSc), Northern Regional College <br> January 2022 — October 2024 <br> Average Mark: 85% </p> 
+                    <br>
+                <p> BTEC Level 3, Northern Regional College <br> January 2016 — January 2017 <br> Level 3 Diploma in IT - D*D* </p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo consectetur tempore vero id repellendus accusamus placeat qui fugiat explicabo nobis labore recusandae, dolores aliquid quod repudiandae veritatis molestiae perspiciatis excepturi soluta eius reprehenderit laudantium fugit nulla? Quas deleniti odio necessitatibus, accusantium rerum consectetur culpa dolorem tenetur, repellat exercitationem ipsum sequi?</p>
+                    <p>Motivated Software Engineering student with a Foundation Degree in Computing and strong programming skills in Java, Python, and C#. My experience as a Support Analyst, with years of teamwork in various roles, has enhanced my problem-solving and communication skills. Eager to apply my knowledge in a Software Engineer Placement, I am excited to contribute to innovative projects while continuing my professional development. </p>
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+
+        <a href="#skills">
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow">
+        </a>
+
     </section>
-    <section id="experience">
+
+    <section id="skills">
+        <h2 class="title">Skills & Technologies</h2>
+
+        <p>The following scores represent my level of ability with various technologies, based on a scale of 1 to 5:</p>
+        <ul>
+            <li>1: Basic Understanding</li>
+            <li>2: Familiarity</li>
+            <li>3: Competent</li>
+            <li>4: Proficient</li>
+            <li>5: Expert</li>
+        </ul>
+
+    
+        <div class="skills-container">
+            <div class="skills-subsection">
+                <h3>Frontend Technologies</h3>
+                <ul>
+                    <li>
+                        <span>HTML</span>
+                        <span class="skill-level">4</span>
+                    </li>
+                    <li>
+                        <span>CSS</span>
+                        <span class="skill-level">3</span>
+                    </li>
+                    <li>
+                        <span>JavaScript</span>
+                        <span class="skill-level">3</span>
+                    </li>
+                    <li>
+                        <span>React</span>
+                        <span class="skill-level">2</span>
+                    </li>
+                    <li>
+                        <span>Bootstrap</span>
+                        <span class="skill-level">2</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="skills-subsection">
+                <h3>Backend Technologies</h3>
+                <ul>
+                    <li>
+                        <span>Django</span>
+                        <span class="skill-level">2</span>
+                    </li>
+                    <li>
+                        <span>Node.js</span>
+                        <span class="skill-level">1</span>
+                    </li>
+                    <li>
+                        <span>Flask</span>
+                        <span class="skill-level">2</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Programming Languages -->
+            <div class="skills-subsection">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>
+                        <span>Python</span>
+                        <span class="skill-level">3</span>
+                    </li>
+                    <li>
+                        <span>Java</span>
+                        <span class="skill-level">3</span>
+                    </li>
+                    <li>
+                        <span>C#</span>
+                        <span class="skill-level">2</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a href="#projects">
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow">
+        </a>
+    </section>
+
+    <!-- <section id="experience">
         <p class="section_text_p1">Explore My</p>
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
@@ -115,14 +211,14 @@
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div><h3>Java</h3><p>Intermediate</p></div>
                         </article>
-                        <article>
+                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div><h3>TypeScript</h3><p>Basic</p></div>
-                        </article>
-                    </div>
+                        </article> -->
+                    <!-- </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="experience-sub-title">Backend Development</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
@@ -130,32 +226,34 @@
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div><h3>Node JS</h3><p>Intermediate</p></div>
+                            <div><h3>Node JS</h3><p>Basic</p></div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div><h3>Express JS</h3><p>Intermediate</p></div>
+                            <div><h3>Express JS</h3><p>Basic</p></div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div><h3>Django</h3><p>Intermediate</p></div>
+                            <div><h3>Django</h3><p>Basic</p></div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div><h3>Flask</h3><p>Intermediate</p></div>
+                            <div><h3>Flask</h3><p>Basic</p></div>
                         </article>
-                        <article>
+                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div><h3>Git</h3><p>Intermediate</p></div>
-                        </article>
+                            <div><h3>Git</h3><p>Basic</p></div>
+                        </article> 
 
                     </div>
                 </div>
             </div>
 
         </div>
-        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
-    </section>
+        <a href="#projects">
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow">
+        </a>
+    </section> -->
     <section id="projects">
         <p class="section_text_p1">Browse my Recent</p>
         <h1 class="title">Projects</h1>
@@ -165,10 +263,10 @@
                 <div class="article-container">
                     <img src="./assets/project-1.png" alt="Project 1" class="project-img">
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
+                <h2 class="experience-sub-title project-title">Notes Full-Stack Web App</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com'">GitHub</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com'">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com'">Project Overview</button>
                 </div>
             </div>
             <div class="details-container color-container">
@@ -178,7 +276,7 @@
                 <h2 class="experience-sub-title project-title">Project Two</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com'">GitHub</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com'">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com'">Project Overview</button>
                 </div>
             </div>
             <div class="details-container color-container">
@@ -188,12 +286,14 @@
                 <h2 class="experience-sub-title project-title">Project Three</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com'">GitHub</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com'">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com'">Project Overview</button>
                 </div>
             </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+        <a href="#contact">
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow">
+        </a>
     </section>
     <section id="contact">
         <p class="section_text_p1">Get in Touch</p>
@@ -201,11 +301,11 @@
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
-                <p><a href="mailto:examplemail@gmail.com"></a>Example@gmail.com</p>
+                <p><a href="mailto: adammccavana96@gmail.com"></a>adammccavana96@gmail</p>
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
-                <p><a href="https://www.linkedin.com/"></a>LinkedIn</p>
+                <p><a href="https://www.linkedin.com/in/adam-mccavana-135a58256/"></a>/in/adammccavana</p>
             </div>
         </div>
     </section>
@@ -214,7 +314,7 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills/Technologies</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
